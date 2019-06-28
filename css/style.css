@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin:0;
+}
+.meio {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 20vh;
+}
+.numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 30vw;
+    height: 37vh;
+}
+#visor {
+    font-size: 25px;
+    border:5px solid rgb(22, 197, 66);
+    outline: none;
+}
+.forma {
+    border: 5px solid rgb(9, 160, 42);
+    border-radius: 10px;
+    width: 25vw;
+    height: 55vh;
+}
+.box {
+    display: flex;
+    width: 100vw;
+    justify-content: left;
+    align-items: left;
+}
+.botao {
+    width: 30px;
+    height: 35px;
+    font-size: 15px;
+    cursor: crosshair;
+    outline:none;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(16, 192, 95);
+    border: none;
+    border-radius: 10px;
+}
+.botao1 {
+    width: 25px;
+    height: 25px;
+    cursor: crosshair;
+    outline:none;
+    margin:15px;
+    padding: 10px;
+    background-color:rgb(247, 22, 6);
+    border: none;
+    border-radius: 25px;
+}
+.box-2{
+    width: 14vw;
+    height: 5vw;
+}
+@media screen and (max-width:1720px) {
+    .box-2 {
+        width: 16vw;
+    }
+}
+@media screen and (max-width:1085px) {
+    .box-2 {
+        width: 30vw;
+        height: 40vh;
+    }
+    #visor{
+        width: 25vw;
+    }
+    .numeros {
+        height: 50vh;
+    }
+    .forma {
+        height: 50vh;
+    }
+    .meio {
+        height: 15vh;
+    }
+}
+@media screen and (max-width:750px) {
+    .forma {
+        padding: 15px;
+    }
+    .box-2 {
+        width: 25vw;
+        height: 37vh;
+    }
+    
+}
+@media screen and (max-width:538px) {
+    .forma {
+        width: 49vw;
+        height: 58vh;
+    }
+    .box-2 {
+        width: 35vw;
+    }
+    .numeros {
+        width: 50vw;
+        height: 40vh;
+    }
+}
+@media screen and (max-width:491px) {
+    .box-2{
+        width: 40vw;
+    }
+    #visor {
+        width: 36vw;
+    }
+}
+@media screen and (max-width:430px) {
+    .box-2{
+        width: 45vw;
+    }
+    #visor {
+        width: 38vw;
+    }
+}
+@media screen and (max-width:382px) {
+    .box-2 {
+        width: 50vw;
+    }
+    #visor {
+        width: 44vw;
+    }
+}
+@media screen and (max-width:344px){
+    .box-2 {
+        width: 58vw;
+    }
+}
+@media screen and (max-width:297px){
+    .forma {
+        width: 65vw;
+        height: 58vh;
+    }
+    #visor{
+        width: 66vw;
+    }
+    .box-2 {
+        width: 72vw;
+    }
+    .numeros {
+        width: 68vw;
+    }
+}
+@media screen and (max-width:239px) {
+    .box-2 {
+        width: 79vw;
+    }
+}
+@media screen and (max-width:218px) {
+    .box-2{
+        width: 84vw;
+    }
+    #visor {
+        width:70vw;
+    }
+}
+@media screen and (max-width:205px) {
+    .box-2{
+        width: 90vw;
+    }
+}
+@media screen and (max-width:192px) {
+    .box-2{
+        width: 93vw;
+    }
+}
+@media screen and (max-width:185px) {
+    .box-2{
+        width: 96vw;
+    }
+}
